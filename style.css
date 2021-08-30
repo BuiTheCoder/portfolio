@@ -1,0 +1,61 @@
+header, main, footer {
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 11pt;
+}
+header {
+  background-color: black;
+  padding: 20px 50px;
+}
+nav {
+  position: absolute;
+  right: 0px;
+  top: 35px;
+}
+nav a, article div a { /* stylizes nav and contact links */
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+h1, h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+  margin: auto;
+}
+h2 {
+  font-size: 13pt;
+}
+main article div {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 400px;
+  padding: 30px;
+}
+main {
+  padding: 50px 0px;
+  background-color: snow;
+}
+.centered-text, h3 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  color: white;
+  background-color: silver;
+  padding: 20px;
+}
+hr {
+  max-width: 200px;
+  margin: auto;
+}
+ol {
+  list-style-position: inside;
+  text-align: left;
+  margin: auto;
+}
+
+nav a:link    { color: white           }
+a:visited     { color: silver          }
+a:hover       { color: cornflowerblue  }
+a:active      { color: cyan            }
+main a:link   { color: black           }
