@@ -11,8 +11,10 @@ nav {
   right: 0px;
   top: 35px;
 }
-nav a, article div a { /* stylizes nav and contact links */
+nav a {
   padding: 20px;
+}
+nav a, article div a { /* stylizes nav and contact links */  
   text-decoration: none;
   text-transform: uppercase;
 }
