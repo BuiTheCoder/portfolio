@@ -29,9 +29,8 @@ h3 {
 }
 img { /* position and scale fix for photo */
   margin: auto;
-  width: 300px;
-  height: 300px;
-  transform: scaleX(1.35)
+  width: 450px;
+  height: auto;
 }
 main article div { /* structures the containers of main page content */
   box-sizing: border-box;
