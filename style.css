@@ -1,6 +1,6 @@
 header, main, footer {
   font-family:  Helvetica, Arial, sans-serif;
-  font-size: 12pt;
+  font-size: 14pt;
 }
 header {
   background-color: black;
@@ -9,9 +9,9 @@ header {
 nav { /* positioning of nav bar */
   position: absolute;
   right: 0px;
-  top: 35px;
+  top: 45px;
 }
-nav a { 
+nav a {
   padding: 20px;
 }
 nav a, article div a { /* stylizes nav and contact links */  
@@ -24,28 +24,26 @@ h1, h2 {
   color: white;
   margin: auto;
 }
-h2 {
-  font-size: 12pt;
-}
 h3 {
-  font-size: 14pt;
+  font-size: 16pt;
 }
 img { /* position and scale fix for photo */
   margin: auto;
-  width: 300px;
-  height: 300px;
+  width: 450px;
+  height:450px;
   transform: scaleX(1.35)
 }
 main article div { /* structures the containers of main page content */
   box-sizing: border-box;
   margin: auto;
-  max-width: 400px;
-  padding: 30px;
+  max-width: 450px;
+  padding: 20px;
 }
 main {
   padding: 50px 0px;
-  background-color: snow;
+  background-color: white;
   line-height: 1.8; /* for better readability */
+  font-weight: bold;
 }
 .centered-text, h3 {
   text-align: center;
@@ -67,7 +65,7 @@ ol {
 }
 
 nav a:link    { color: white           }
-a:visited     { color: orangered       }
-a:hover       { color: blue            }
+a:visited     { color: orangered          }
+a:hover       { color: blue  }
 a:active      { color: cyan            }
 main a:link   { color: black           }
